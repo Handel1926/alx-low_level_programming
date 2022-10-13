@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
-  * main - Prints the sizeof many var types
-  *
-  * Reaturn: Always 0 (Successful)
+  * main - Prints the sizeof different var types
+  * Return: Always 0 (Successful)
   */
 int main(void)
 {
