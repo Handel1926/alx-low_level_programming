@@ -22,8 +22,8 @@ int main(void)
 			{
 				if (y != x && y != z && x != z && y < x && x < z)
 				{
-					putchar(x);
 					putchar(y);
+					putchar(x);
 					putchar(z);
 					if (x == 56 && y == 55 && z == 57)
 					{
