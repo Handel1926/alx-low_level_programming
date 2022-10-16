@@ -17,7 +17,7 @@ int main(void)
 		while (i = 58)
 		{
 			putchar(x);
-			purchar(i);
+			putchar(i);
 			if (i == 57 && x == 57)
 			{
 				break;

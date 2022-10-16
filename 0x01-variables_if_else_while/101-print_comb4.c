@@ -15,21 +15,29 @@ int main(void)
 	while (y < 58)
 	{
 		x = 48;
+		while (z < 58)
 		{
-			while (z < 58)
+			y = 48;
+			while (x < 58)
 			{
-				y = 48;
+				if (y != x && y != z && x != z && y < x && x < z)
 				{
-					while (x < 58)
+					putchar(x);
+					putchar(y);
+					putchar(z);
+					if (x == 56 && y == 55 && z == 57)
 					{
-						if (y != x && y != z && x != z && y < x && x < z)
-						{
-							putchar(x);
-							putchar(y);
-							putchar(z);
-							if (x == 56 && y == 55 && z == 57)
-							{
-								break;
-							}
-							putchar('
-
+						break;
+					}
+					putchar(',');
+					putchar(' ');
+				}
+				x++;
+			}
+			z++;
+		}
+		y++;
+	}
+	putchar('\n');
+	return (0);
+}
