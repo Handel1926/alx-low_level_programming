@@ -15,10 +15,10 @@ int main(void)
 	while (y < 58)
 	{
 		x = 48;
-		while (z < 58)
+		while (x < 58)
 		{
-			y = 48;
-			while (x < 58)
+			z = 48;
+			while (z < 58)
 			{
 				if (y != x && y != z && x != z && y < x && x < z)
 				{
@@ -32,9 +32,9 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				x++;
+				z++;
 			}
-			z++;
+			x++;
 		}
 		y++;
 	}
